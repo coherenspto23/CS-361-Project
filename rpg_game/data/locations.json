@@ -1,0 +1,76 @@
+{
+  "maevr_village": {
+    "name": "Maevr Village",
+    "description": "A small but bustling village on the north western coast of Northumbria. The village is known for its fish and its vibrant fabrics.",
+    "connections": {
+      "north": null,
+      "east": "walerian_forest",
+      "south": null,
+      "west": null
+    },
+    "visited": false,
+    "items": [],
+    "npcs": [],
+    "enemies": []
+  },
+  
+  "walerian_forest": {
+    "name": "Walerian Forest",
+    "description": "A dense and rich forest found east of Maevr Village. Home to many creatures and a common spot for hunters. A common route for travelers heading east.",
+    "connections": {
+      "north": "crackurn_village",
+      "east": "vaerial_mountains",
+      "south": null,
+      "west": "maevr_village"
+    },
+    "visited": false,
+    "items": [],
+    "npcs": [],
+    "enemies": []
+  },
+  
+  "vaerial_mountains": {
+    "name": "Vaerial Mountains",
+    "description": "A towering mountain range found to the east of Walerian forest. The mountains are harsh and pose a challenge to travelers. Home to rare minerals and ores, small mining towns can be found in the foothills.",
+    "connections": {
+      "north": "reiger_caves",
+      "east": null,
+      "south": null,
+      "west": "walerian_forest"
+    },
+    "visited": false,
+    "items": [],
+    "npcs": [],
+    "enemies": []
+  },
+  
+  "crackurn_village": {
+    "name": "Crackurn Village",
+    "description": "Small mining village in the north stuck between the Walerian Forest and the Vaerial Mountains. The village is poor and small, with bandit raids plaguing its residents.",
+    "connections": {
+      "north": null,
+      "east": "reiger_caves",
+      "south": "walerian_forest",
+      "west": null
+    },
+    "visited": false,
+    "items": [],
+    "npcs": [],
+    "enemies": []
+  },
+  
+  "reiger_caves": {
+    "name": "Reiger Caves",
+    "description": "Cave system found in the northern region of the Vaerial Mountains. They often serve as temporary bases for bandit groups to raid nearby villages.",
+    "connections": {
+      "north": null,
+      "east": null,
+      "south": "vaerial_mountains",
+      "west": "crackurn_village"
+    },
+    "visited": false,
+    "items": [],
+    "npcs": [],
+    "enemies": []
+  }
+}

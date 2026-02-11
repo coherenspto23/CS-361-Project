@@ -1,0 +1,16 @@
+# Ignore other projects
+proj1/
+proj4/
+rpg_game.zip
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Save files
+rpg_game/data/saves/*.json
+
+# IDE
+.vscode/
+.idea/
